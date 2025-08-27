@@ -87,6 +87,10 @@ public class Main {
         // Identifiers
         int hoursPerDay = 24; // GOOD identifier
         int hpd = 24; // BAD identifier
+
+        // Constants (Final)
+        final int HOURS_PER_DAY = 24;
+        final int CURRENTYEAR = 2025;
     }
 
     public static void getStarted() {
