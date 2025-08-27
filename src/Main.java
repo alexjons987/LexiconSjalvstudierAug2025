@@ -91,6 +91,24 @@ public class Main {
         // Constants (Final)
         final int HOURS_PER_DAY = 24;
         final int CURRENTYEAR = 2025;
+
+        // Real-Life Examples
+        String studentName = "Alex Jons";
+        int studentID = 1234;
+        int studentAge = 25;
+        float studentFee = 500.55f;
+        char studentGrade = 'S';
+        System.out.println("Student name: " + studentName);
+        System.out.println("Student ID: " + studentID);
+        System.out.println("Student age: " + studentAge);
+        System.out.println("Student fee: " + studentFee);
+        System.out.println("Student grade: " + studentGrade);
+
+        int length = 10;
+        int width = 10;
+        int area;
+        area = length * width;
+        System.out.println("Square length of " + length + " and a width of " + width + " gives an area of " + area);
     }
 
     public static void getStarted() {
