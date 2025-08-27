@@ -51,7 +51,7 @@ public class Main {
         myOtherOtherNum = 2;
         System.out.println(myOtherOtherNum);
 
-        final int myConstNum = 11; // final = constant, can't change
+        final int myConstNum = 11; // final = constant, can't change - not declared according to convention
         int integer = 5;
         float floatingNum = 1.255f;
         char character = 'A';
@@ -84,6 +84,9 @@ public class Main {
         w1 = w2 = w3 = 500;
         System.out.println(w1 + w2 + w3);
 
+        // Identifiers
+        int hoursPerDay = 24; // GOOD identifier
+        int hpd = 24; // BAD identifier
     }
 
     public static void getStarted() {
