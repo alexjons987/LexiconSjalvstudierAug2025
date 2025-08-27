@@ -67,9 +67,22 @@ public class Main {
         String fullName = firstName + lastName;
         System.out.println(fullName);
 
-        int x = 2;
-        int y = 3;
-        System.out.println(x + y);
+        int myX = 2;
+        int myY = 3;
+        System.out.println(myX + myY);
+
+        // Multiple Variables
+        int a = 10;
+        int b = 20;
+        int c = 100;
+        System.out.println(a + b + c);
+
+        int x = 20, y = 40, z = 200;
+        System.out.println(x + y + z);
+
+        int w1, w2, w3;
+        w1 = w2 = w3 = 500;
+        System.out.println(w1 + w2 + w3);
 
     }
 
