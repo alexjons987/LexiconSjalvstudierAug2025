@@ -3,9 +3,11 @@
 public class Main {
     public static void main(String[] args) {
         // Java - Getting Started
+        System.out.println("Java - Getting Started");
         System.out.println("Hello World!");
 
         // Java - Output
+        System.out.println("Java - Output");
         // Text
         System.out.println("Hello World!");
         System.out.println("I am re-learning Java.");
@@ -31,11 +33,12 @@ public class Main {
          */
 
         // Java - Variables
+        System.out.println("Java - Variables");
         // type variableName = value;
 
         // Variables
-        String name = "Alexander";
-        System.out.println(name);
+        String myName = "Alexander";
+        System.out.println(myName);
 
         int myNum = 123;
         System.out.println(myNum);
@@ -56,8 +59,18 @@ public class Main {
         String text = "Hello World!";
 
         // Print Variables
+        String name = "Alex";
+        System.out.println("Hello " + name);
 
-        getStarted();
+        String firstName = "Alex ";
+        String lastName = "Jons";
+        String fullName = firstName + lastName;
+        System.out.println(fullName);
+
+        int x = 2;
+        int y = 3;
+        System.out.println(x + y);
+
     }
 
     public static void getStarted() {
