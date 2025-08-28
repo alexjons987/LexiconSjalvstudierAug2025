@@ -242,6 +242,18 @@ public class Main {
         System.out.println("Square root of 128: " + Math.sqrt(128));
         System.out.println("Absolute of -1.5: " + Math.abs(-1.5));
         System.out.println("Random number!: " + Math.random());
+
+        //
+        // Java - Booleans
+        //
+        System.out.println("\nJava - Booleans");
+        System.out.println("I understand booleans: " + (1 == 1));
+
+        int votingAge = 16;
+        if (studentAge > votingAge)
+            System.out.println("Student eligible for voting!");
+        else
+            System.out.println("Student ineligible for voting!");
     }
 
     public static void getStarted() {
