@@ -254,6 +254,23 @@ public class Main {
             System.out.println("Student eligible for voting!");
         else
             System.out.println("Student ineligible for voting!");
+
+        //
+        // Java - If...Else
+        //
+        System.out.println("\nJava - If...Else");
+        if(true)
+            System.out.println("I'm always true!");
+
+        if(x > y)
+            System.out.println("x is greather than y");
+        else if (x == y)
+            System.out.println("x is equal to y");
+        else
+            System.out.println("y is greater than x");
+
+        String xGreaterThanYString = x > y? "x is greater than y" : "x is not greater than y";
+        System.out.println(xGreaterThanYString);
     }
 
     public static void getStarted() {
