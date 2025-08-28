@@ -314,6 +314,7 @@ public class Main {
             System.out.print((char) thisIsAChar);
             thisIsAChar++;
         }
+
         System.out.println(); // new line
 
         int dice = 1;
@@ -329,6 +330,7 @@ public class Main {
         System.out.println("\nJava - For Loop");
         for (int i = 1; i <= 10; i++)
             System.out.print(i + " ");
+
         System.out.println(); // New line
 
         int[][] arr = {{10, 20}, {30, 40}};
@@ -337,6 +339,28 @@ public class Main {
             for (int j = 0; j < arr[i].length; j++)
                 total += arr[i][j];
         System.out.println(total);
+
+        //
+        // Java - Break/Continue
+        //
+        System.out.println("\nJava - Break/Continue");
+        System.out.println("Stop at 5:");
+        for (int i = 1; i <= 10; i++) {
+            if (i == 5)
+                break;
+            System.out.print(i + " ");
+        }
+
+        System.out.println(); // New line
+
+        System.out.println("Skip 6:");
+        for (int i = 1; i <= 10; i++) {
+            if (i == 6)
+                continue;
+            System.out.print(i + " ");
+        }
+
+        System.out.println(); // New line
     }
 
     public static void getStarted() {
