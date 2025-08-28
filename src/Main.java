@@ -209,6 +209,29 @@ public class Main {
         System.out.println(yy > zz);
         System.out.println(true || false);
         System.out.println(true && false);
+
+        //
+        // Java - Strings
+        //
+        System.out.println("\nJava - String");
+        // Strings
+        String engAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        System.out.println("The english alphabet: " + engAlphabet);
+        System.out.println("English alphabet length: " + engAlphabet.length());
+        System.out.println("Lower case alphabet: " + engAlphabet.toLowerCase());
+        System.out.println("First letter of my name at index: " + engAlphabet.indexOf('A'));
+        System.out.println("Letter at index 23: " + engAlphabet.charAt(23));
+
+        // Concatenation
+        System.out.println(firstName + lastName);
+        System.out.println(firstName.concat(lastName));
+
+        // Numbers and Strings
+        int aNum = 10;
+        System.out.println(lastName+10);
+
+        // Special Characters
+        System.out.println("Dubbelfnutt i en sträng \"\"\"\"\"\n(annars kallat escape characters)");
     }
 
     public static void getStarted() {
