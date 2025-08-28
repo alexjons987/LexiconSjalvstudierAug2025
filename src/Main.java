@@ -385,9 +385,53 @@ public class Main {
         System.out.println("Fruits post-change:");
         for (String fruit : fruits)
             System.out.println("* " + fruit);
+
+        //
+        // Java - Methods
+        //
+        System.out.println("\nJava - Methods");
+        getStarted();
+        weirdFamily("Alex");
+        weirdFamily("Alexa");
+        weirdFamily("Alexander");
+        System.out.println(addition(5, 5));
+        System.out.println(area(1, 2));
+        System.out.println(area(1.5d, 2.5d));
+        System.out.println(fibNth(6));
+        System.out.println(fibNth(7));
     }
 
+    // A method/function
     public static void getStarted() {
         System.out.println("Hello World!");
+    }
+
+    // Method with param
+    public static void weirdFamily(String firstName) {
+        System.out.println(firstName + " Arrayson");
+    }
+
+    // Method with return type
+    public static int addition(int x, int y) {
+        return x + y;
+    }
+
+    // Overloading
+    public static int area(int x, int y) {
+        return x * y;
+    }
+
+    public static double area(double x, double y) {
+        return x * y;
+    }
+
+    // Method with recursion - and how it should've been solved during the test!
+    public static int fibNth(int n) {
+        if (n <= 1)
+            return n;
+        else if (n == 3) // Without this it returns 2 which is 4th fib, not 3rd (0, 1, 1, 2, ...)
+            return 1;
+
+        return fibNth(n - 1) + fibNth(n - 2);
     }
 }
