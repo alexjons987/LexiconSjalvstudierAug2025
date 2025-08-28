@@ -232,6 +232,16 @@ public class Main {
 
         // Special Characters
         System.out.println("Dubbelfnutt i en sträng \"\"\"\"\"\n(annars kallat escape characters)");
+
+        //
+        // Java - Math
+        //
+        System.out.println("\nJava - Math");
+        System.out.println("Max of 10 and 20: " + Math.max(10, 20));
+        System.out.println("Min of 10 and 20: " + Math.min(10, 20));
+        System.out.println("Square root of 128: " + Math.sqrt(128));
+        System.out.println("Absolute of -1.5: " + Math.abs(-1.5));
+        System.out.println("Random number!: " + Math.random());
     }
 
     public static void getStarted() {
