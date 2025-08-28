@@ -2,11 +2,15 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        //
         // Java - Getting Started
+        //
         System.out.println("Java - Getting Started");
         System.out.println("Hello World!");
 
+        //
         // Java - Output
+        //
         System.out.println("Java - Output");
         // Text
         System.out.println("Hello World!");
@@ -24,7 +28,9 @@ public class Main {
         System.out.println(2 * 5);
         System.out.println(1 + 2 * 3);
 
+        //
         // Java - Comments
+        //
         // This is a comment
         /*
             This is a
@@ -32,7 +38,9 @@ public class Main {
             comment
          */
 
+        //
         // Java - Variables
+        //
         System.out.println("Java - Variables");
         // type variableName = value;
 
@@ -109,6 +117,52 @@ public class Main {
         int area;
         area = length * width;
         System.out.println("Square length of " + length + " and a width of " + width + " gives an area of " + area);
+
+        //
+        // Java - Data Types
+        //
+        // Data Types & Numbers
+        char oneCharacter = 'A';
+        boolean flag = false;
+        String helloWorldText = "Hello World";
+        byte superSmallNumber = 127;            // -128 to 127
+        short smallNumber = 32000;              // -32,768 to 32,767
+        int wholeNumber = 9;                    // -2,147,483,648 to 2,147,483,647
+        long superLongNumber = 999999999L;      // -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+        float floatingNumber = 9.99f;           //  6 to  7 decimal digits
+        double floatButLong = 9.9999999999d;    // 15 to 16 decimal digits
+
+        // Booleans
+        boolean thisIsTrue = true;
+        boolean thisIsFalse = false;
+        System.out.println(thisIsTrue);
+        System.out.println(thisIsFalse);
+
+        // Characters
+        char myFirstCharacterInName = 'A';
+        System.out.println(myFirstCharacterInName);
+
+        char myVar1 = 65, myVar2 = 66, myVar3 = 67;
+        System.out.println(myVar1);
+        System.out.println(myVar2);
+        System.out.println(myVar3);
+
+        String anotherHello = "Hello World, for the 5th time!";
+        System.out.println(anotherHello);
+        System.out.println(anotherHello.charAt(21));
+
+        // Real-Life Example
+        int drinks = 24;
+        float costPerDrink = 13.708f;
+        float totalCost = drinks * costPerDrink;
+        String currency = "kr (SEK)";
+        System.out.println("Number of drinks: " + drinks);
+        System.out.println("Cost per drink: " + costPerDrink + currency);
+        System.out.println("Total cost = " + totalCost + currency);
+
+        // Non-primitive Types
+        int iAmPrimitive = 123;
+        String iAmNotPrimitive = "I am a Class";
     }
 
     public static void getStarted() {
