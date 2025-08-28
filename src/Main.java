@@ -361,6 +361,30 @@ public class Main {
         }
 
         System.out.println(); // New line
+
+        //
+        // Java - Arrays
+        //
+        System.out.println("\nJava - Arrays");
+        int[][] smallArr = {{1, 2}, {3}};
+        System.out.println("Small array has " + smallArr.length + " arrays inside of it");
+        System.out.println("First array has a length of " + smallArr[0].length);
+        System.out.println("Second array has a length of " + smallArr[1].length);
+        int smallTotal = 0;
+        for (int i = 0; i < smallArr.length; i++)
+            for (int j = 0; j < smallArr[i].length; j++)
+                smallTotal += smallArr[i][j];
+        System.out.println("Total of all numbers present in smallArr: " + smallTotal);
+
+        String[] fruits = {"Apple", "Banana", "Orange", "Lingonberries?"};
+        System.out.println("Fruits:");
+        for (String fruit : fruits)
+            System.out.println("* " + fruit);
+
+        fruits[0] = "Bananana";
+        System.out.println("Fruits post-change:");
+        for (String fruit : fruits)
+            System.out.println("* " + fruit);
     }
 
     public static void getStarted() {
