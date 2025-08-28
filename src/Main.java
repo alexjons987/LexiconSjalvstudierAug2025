@@ -322,6 +322,21 @@ public class Main {
             System.out.println("You rolled " + dice);
         } while (dice < 6);
         System.out.println("Yatzy!");
+
+        //
+        // Java - For Loop
+        //
+        System.out.println("\nJava - For Loop");
+        for (int i = 1; i <= 10; i++)
+            System.out.print(i + " ");
+        System.out.println(); // New line
+
+        int[][] arr = {{10, 20}, {30, 40}};
+        int total = 0;
+        for (int i = 0; i < arr.length; i++)
+            for (int j = 0; j < arr[i].length; j++)
+                total += arr[i][j];
+        System.out.println(total);
     }
 
     public static void getStarted() {
