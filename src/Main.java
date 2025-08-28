@@ -5,13 +5,13 @@ public class Main {
         //
         // Java - Getting Started
         //
-        System.out.println("Java - Getting Started");
+        System.out.println("\nJava - Getting Started");
         System.out.println("Hello World!");
 
         //
         // Java - Output
         //
-        System.out.println("Java - Output");
+        System.out.println("\nJava - Output");
         // Text
         System.out.println("Hello World!");
         System.out.println("I am re-learning Java.");
@@ -31,6 +31,7 @@ public class Main {
         //
         // Java - Comments
         //
+        System.out.println("\nJava - Comments");
         // This is a comment
         /*
             This is a
@@ -41,7 +42,7 @@ public class Main {
         //
         // Java - Variables
         //
-        System.out.println("Java - Variables");
+        System.out.println("\nJava - Variables");
         // type variableName = value;
 
         // Variables
@@ -121,6 +122,7 @@ public class Main {
         //
         // Java - Data Types
         //
+        System.out.println("\nJava - Data Types");
         // Data Types & Numbers
         char oneCharacter = 'A';
         boolean flag = false;
@@ -163,6 +165,32 @@ public class Main {
         // Non-primitive Types
         int iAmPrimitive = 123;
         String iAmNotPrimitive = "I am a Class";
+
+        //
+        // Java -  Type Casting
+        //
+        System.out.println("\nJava - Type Casting");
+        /*
+            Automatic casting
+            byte -> short -> char -> int -> long -> float -> double
+
+            Manual casting (reversed)
+            double -> float -> long -> int -> char -> short -> byte
+         */
+        int numberNine = 9;
+        double doubledNine = numberNine;
+        System.out.println("Integer (int = 9): " + numberNine);
+        System.out.println("Double (double = int): " + doubledNine);
+
+        double toBeCasted = 9.975d;
+        int integerFromDoubleThroughCast = (int) toBeCasted;
+        System.out.println(toBeCasted);
+        System.out.println(integerFromDoubleThroughCast);
+
+        int maximumPoints = 500;
+        int userPoints = 166;
+        float percentage = (float) userPoints / maximumPoints * 100.0f;
+        System.out.println(percentage);
     }
 
     public static void getStarted() {
