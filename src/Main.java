@@ -303,6 +303,25 @@ public class Main {
                 System.out.println("No day beyond 7 or before 1!");
                 break;
         }
+
+        //
+        // Java - While Loop
+        //
+        System.out.println("\nJava - While Loop");
+
+        byte thisIsAChar = 65;
+        while ((char) thisIsAChar != 'D') { // ABC
+            System.out.print((char) thisIsAChar);
+            thisIsAChar++;
+        }
+        System.out.println(); // new line
+
+        int dice = 1;
+        do {
+            dice = (int) (Math.random() * 6 + 1);
+            System.out.println("You rolled " + dice);
+        } while (dice < 6);
+        System.out.println("Yatzy!");
     }
 
     public static void getStarted() {
