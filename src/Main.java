@@ -191,6 +191,24 @@ public class Main {
         int userPoints = 166;
         float percentage = (float) userPoints / maximumPoints * 100.0f;
         System.out.println(percentage);
+
+        //
+        // Java -  Operators
+        //
+        System.out.println("\nJava - Type Casting");
+        int xx = 25, yy = 50, zz = 100;
+        System.out.println(xx + yy + zz); // 175
+        System.out.println(xx++); // Increment pre-usage, prints 25
+        System.out.println(++xx); // Increment post-usage, prints 27
+        xx = 25;
+        System.out.println((float) (xx * yy - zz) / 100.0f);
+        System.out.println(zz % 15);
+        System.out.println(xx + 25 == yy);
+        System.out.println(xx + 25 != yy);
+        System.out.println(yy > xx);
+        System.out.println(yy > zz);
+        System.out.println(true || false);
+        System.out.println(true && false);
     }
 
     public static void getStarted() {
