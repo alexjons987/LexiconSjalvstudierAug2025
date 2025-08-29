@@ -1,5 +1,3 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         //
@@ -38,6 +36,7 @@ public class Main {
             multi-line
             comment
          */
+        System.out.println("See code, you can't see comments here :)");
 
         //
         // Java - Variables
